@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+ background: #e5e5e5;
+ font-family: "Montserrat", serif;
+ padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: #f5f7fa;
+    width: 1300px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.inner {
+    background: #fff;
+    width: 1200px;
+    height: 800px;
+    margin: 50px auto;
+    box-shadow: #e0e0e0 10px 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.sidebar {
+    background: #1e2339;
+    width: 400px;
+    padding: 40px 0;
+}
+
+.sidebar_photo {
+    height: 360px;
+    width: 90%;
+    border: white 2px solid;
+    border-radius: 20px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.sidebar_photo img {
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar_contacts_header,
+.sidebar_sklls_header {
+    color: white;
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin: 60px 0 10px 40px;
+    font-weight: 900;
+}
+
+.contacts_list {
+    color: white;
+    list-style: none;
+    margin-bottom: 60px;
+    margin-left: 40px;
+}
+
+.contacts_list a {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.contacts_list li
+.skills_list li{
+margin-bottom: 10px;
+}
+
+.skills_list  {
+    margin-left: 60px;
+    color: orangered;
+}
+
+.skills_list span {
+    color: white
+}
+
+.info_header2 {
+    margin: 60px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.info_header1 {
+    margin: 60px;
+    font-size: 48px;
+}
+
+.info p {
+    margin-left: 60px;
+    width: 400px;
+    text-align: right;
+}
+
+.info p:last-child {
+    text-align: right;
+    font-style: italic;
+}
+
+.info h3 {
+    margin-left: 60px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+.info ol {
+    margin-left: 76px;
+    margin-top: 10px;
+}
+
+.info h4 {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.info h4 span {
+    color: orangered;
+}
+
+.info h5 {
+    font-weight: normal;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.info ul {
+    margin-left: 76px;
+    margin-top: 20px;
+}
